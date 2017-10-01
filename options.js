@@ -56,11 +56,7 @@ function restore_options() {
 			detail.textContent = 'None = Badge is Off.';
 		}else if (chosenoption2 == "contact"){
 			detail.textContent = 'Badge = Total of contacts to chat with you.';
-        }else if (chosenoption2 == "icontact"){
-			detail.textContent = 'Icon number = Show number of contact send new chat to you (inside icon). *This option is beta.';
-		}else if (chosenoption2 == "total"){
-			detail.textContent = 'Messages = Show the total number of messages. (Next ver.)';
-		}else {
+        }else {
 			detail.textContent = "*First (Empty) default is 'Badge'.";
 		}
   });
@@ -75,10 +71,6 @@ selectmenu.onchange = function(){ //run some code when "onchange" event fires
 		detail.textContent = 'None = Badge is Off.';
 	}else if (chosenoption.value == "contact"){
 		detail.textContent = 'Badge = Total of contacts to chat with you.';
-        }else if (chosenoption.value == "icontact"){
-			detail.textContent = 'Icon number = Show number of contact send new chat to you (inside icon). *This option is beta.';
-	}else if (chosenoption.value == "total"){
-		detail.textContent = 'Messages = Show the total number of messages. (Next ver.)';
 	}
 }
 
