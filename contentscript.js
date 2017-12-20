@@ -1,4 +1,4 @@
-// DEV. EXTENTION BY TON // => CONTENTSCRIPT.JS
+// DEV. EXTENTION BY iTON // => CONTENTSCRIPT.JS
 // NOTE: butterbar-icon
 chrome.extension.onMessage.addListener(
 	function(request, sender){
@@ -14,12 +14,6 @@ chrome.extension.onMessage.addListener(
 				chrome.runtime.sendMessage({alert:theCount});
 			}else{
 				//console.log('log: There does not seem to be any <div> elements in this page!');
-			}
-                        
-			if(icon.length > 0){
-				var hicon = icon;
-				chrome.runtime.sendMessage({icon:hicon});
-				//console.log('log: icon - hicon');				
 			}			
 		}
 });

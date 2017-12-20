@@ -31,7 +31,7 @@
     "page": "options.html", 
     "open_in_tab": false
   }, 
-  "version": "1.2.5", 
+  "version": "1.2.6", 
   "options_page": "options.html", 
   "manifest_version": 2, 
   "permissions": [

@@ -1,4 +1,4 @@
-// DEV. EXTENTION BY TON // => OPTIONS.JS
+// DEV. EXTENTION BY iTON // => OPTIONS.JS
 // NOTE: Saves options to chrome.storage
 var whatsAppURL = "https://web.whatsapp.com/";
 var thisTabID;
